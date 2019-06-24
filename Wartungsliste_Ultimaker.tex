@@ -1,0 +1,53 @@
+\newcommand{\basedir}{./fablab-document/}
+\documentclass{\basedir/vsh-document}
+
+\usepackage{tabularx} % Tabellen mit bestimmtem Breitenverhältnis der Spalten
+
+\newcommand{\thickhline}{\noalign{\hrule height 2pt}}
+\usepackage{eurosym}
+\renewcommand{\texteuro}{\euro}
+
+\title{Wartung 3D-Drucker}
+\author{Stefan Kaufmann, nach Vorlage von Patrick Kanzler}
+
+\fancyfoot[L]{Wartungsliste 3D-Drucker}
+\fancyfoot[C]{}
+%\fancyfoot[R]{Liste Nr. \underline{~~~~~~~~}}
+
+\begin{document}
+Bitte hier alle Wartungen und Prüfungen dokumentieren
+
+Zu tun: \emph{Monatlich, Drucker ausgeschaltet:} Build Plate mit Mikrofasertuch unter Wasser reinigen; Staub aus Druckraum entfernen
+
+\emph{Dreimonatlich, Drucker ausgeschaltet:} Achsen/Gleitlager oelen, vorgeschrieben: Unilube. Je ein Tropfen auf X-, Y- und beide Z-Achsen, Gleitlager mehrfach hin- und herbewegen, Schmutzreste an den Enden der Lagerstangen ggf. vorher entfernen. Achsspiel prüfen. Spannung der kurzen Zahnriemen prüfen: Riemen sollten sich nicht aufeinander drücken lassen; Spannung mehr wie bei einer Gitarrensaite. Lüfter des Druckkopfs auf Schmutz prüfen, ggf reinigen. Gewindestange der Z-Achse neu schmieren, ggf. vorher Schmutz entfernen, vorgeschrieben: MAGNALUBE. Ultimaker 3: Silikon-Abdeckung der Düsen auf Verschleiß prüfen.
+
+\emph{Jährlich:} Filament entfernen, Drucker ausschalten. Filamentzuführung mit Druckluft reinigen. Bowdenzüge ausbauen, mit Druckluft reinigen, ggf. tauschen.
+
+\newcommand{\bsp}[1]{\textcolor{gray}{\itshape #1}}
+\newcommand{\beispielzeile}[5]{\bsp{#2} & \bsp{#3} & \bsp{#4} \\ \hline}
+\newcommand{\leerzeile}{\vbox{\vspace{2.4em}} & & \\ \hline}
+\vspace{-.4em}
+\begin{tabularx}{\textwidth}{|c|X|c|} \hline
+\bfseries Datum      &  \bfseries Tätigkeit/Anlass  & \bfseries Name \\\thickhline
+\beispielzeile{BSP}{12.5.2018}{ Dreimonatliche Wartung komplett, alles i.O. }{Name, Handzeichen}
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\end{tabularx}
+
+
+
+\end{document}
