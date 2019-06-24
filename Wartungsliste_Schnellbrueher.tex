@@ -1,0 +1,53 @@
+\newcommand{\basedir}{./fablab-document/}
+\documentclass{\basedir/vsh-document}
+
+\usepackage{tabularx} % Tabellen mit bestimmtem Breitenverhältnis der Spalten
+
+\newcommand{\thickhline}{\noalign{\hrule height 2pt}}
+\usepackage{eurosym}
+\renewcommand{\texteuro}{\euro}
+
+\title{Wartung Kaffeeschnellbrüher}
+\author{Stefan Kaufmann, nach Vorlage von Patrick Kanzler}
+
+\fancyfoot[L]{Wartungsliste Kaffeeschnellbrüher}
+\fancyfoot[C]{}
+%\fancyfoot[R]{Liste Nr. \underline{~~~~~~~~}}
+
+\begin{document}
+Bitte hier alle Kaffeebezüge und Wartungen/Reinigungen eintragen.
+
+Zu tun: Nach jeder Benutzung: Kaffeepouch-Pfanne unter fließend Wasser reinigen, \emph{nicht in der Spülmaschine!} Alle Metallflächen mit Schwamm- oder Mikrofasertuch putzen.
+
+Nach etwa 20 Kannen: Eine Packung Entkalker (Kaffeezubehörschrank) in 1,9 Litern Wasser vollständig auflösen. Kanne unterstellen, keinen Kaffee einlegen. Gerät einschalten und gelösten Entkalker wie normales Wasser einschütten. Kanne durchlaufen lassen und wegleeren (reinigt gleichzeitig Kaffeeablagerungen in der Kanne und dem Steigrohr, ggf. ausnutzen). Mindestens zwei weitere Durchgänge mit klarem Wasser fahren; darauf achten, dass kein ungelöster Entkalker mehr im Wassereinlauf zurückbleibt.
+
+\newcommand{\bsp}[1]{\textcolor{gray}{\itshape #1}}
+\newcommand{\beispielzeile}[5]{\bsp{#2} & \bsp{#3} & \bsp{#4} \\ \hline}
+\newcommand{\leerzeile}{\vbox{\vspace{2.4em}} & & \\ \hline}
+\vspace{-.4em}
+\begin{tabularx}{\textwidth}{|c|X|c|} \hline
+\bfseries Datum      &  \bfseries Tätigkeit/Anlass  & \bfseries Name \\\thickhline
+\beispielzeile{BSP}{12.5.2018}{ Kaffeekannen, III (Strichliste), Z/DA }{Name, Handzeichen}
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\leerzeile
+\end{tabularx}
+
+
+
+\end{document}
