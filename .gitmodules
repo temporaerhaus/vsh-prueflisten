@@ -1,3 +1,4 @@
 [submodule "fablab-document"]
 	path = fablab-document
-	url = https://github.com/verschwoerhaus/fablab-document.git
+	url = git@github.com:temporaerhaus/fablab-document.git
+	branch = main

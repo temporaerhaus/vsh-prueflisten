@@ -1,7 +1,7 @@
 Wartungs- und Prüflisten
 ========================
 
-Wartungs- und Prüflisten des [Verschwörhaus](https://verschwoerhaus.de) für diverse Dinge im Haus :D
+Wartungs- und Prüflisten des [Temporärhaus](https://temporaerhaus.de) für diverse Dinge im Haus :D
 
 Lizenz
 ------
